@@ -1,0 +1,24 @@
+{
+  "name": "compose",
+  "version": "0.4.7",
+  "description": "generate keybinding.dict for compose key with simple config",
+  "main": "index.js",
+  "repository": "git@gitlab.com:chee/compose.git",
+  "author": "chee <chee@snake.dog>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "lodash.merge": "^4.6.0",
+    "nextstep-plist": "^0.2.0",
+    "promisify-node": "^0.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier-eslint": "^6.2.0",
+    "prettier-eslint-cli": "^3.4.3",
+    "standard": "^10.0.2"
+  }
+}
