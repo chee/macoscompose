@@ -32,7 +32,14 @@ npm install
 node .
 ```
 
+## notes
+
+merges with the current `DefaultKeyBinding.dict` if it exists, so it can be used
+as an extension of `osx-compose-key`, or in combination with other bindings and
+binding generators
+
 ## todo
 
 * add more entries to the example
+* add error handling
 * fill out the rest of the todo section
