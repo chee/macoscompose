@@ -50,9 +50,11 @@ function stringToObject (string, value, index = 0, acc = {}, root = acc) {
 
 function parseCompose (compose) {
   const regex = /^\s*"?((?:[^"]|\\\")+)"?:\s+(.*)$/
+  const comment = '#'
   const insertText = 'insertText:'
   const entries = compose
     .split('\n')
+    .filter(entry => entry[0] !== comment)
     .map(entry => regex.exec(entry))
     .filter(Boolean)
     .reduce((acc, [_, key, value]) => {
