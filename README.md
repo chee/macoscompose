@@ -16,7 +16,7 @@ heart: â¤
 "yellow heart": ğŸ’›
 
 dog: ğŸ¶
-"(:": í ½í¹ƒ
+"(:": ğŸ™ƒ
 ```
 
 then run `node .` in this directory (once you've `npm install`'d) and restart
