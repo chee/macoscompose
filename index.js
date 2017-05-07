@@ -33,8 +33,12 @@ async function makeDirectories () {
 }
 
 async function getCurrentBindings () {
-  const dictionary = (await fs.readFile(KEYBINDINGS_FILE)).toString()
-  return plist.parse(dictionary)
+  try {
+    const dictionary = (await fs.readFile(KEYBINDINGS_FILE)).toString()
+    return plist.parse(dictionary)
+  } catch (error) {
+    return {}
+  }
 }
 
 function stringToObject (string, value, index = 0, acc = {}, root = acc) {
