@@ -42,4 +42,5 @@ binding generators
 
 * add more entries to the example
 * add error handling
+* escape " and \ on the way out
 * fill out the rest of the todo section
