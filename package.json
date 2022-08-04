@@ -1,6 +1,6 @@
 {
   "name": "compose",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "description": "generate keybinding.dict for compose key with simple config",
   "main": "index.js",
   "repository": "git@gitlab.com:chee/compose.git",
