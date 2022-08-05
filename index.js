@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const plist = require('nextstep-plist')
 const promisify = require('promisify-node')
 const fs = promisify('fs')
